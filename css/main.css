@@ -5,3 +5,58 @@
     border-top-right-radius: 5px;
     background: #fff;
 }
+
+#text{
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--bright-yellow);
+    margin-bottom: 1rem;
+}
+
+#te{
+    line-height: 1.625rem;
+    color: var(--grayish-blue);
+    font-size: 0.875rem;
+}
+
+.esquerda{
+    background: var(--cyan);
+    padding: 1.5rem;
+}
+
+#pri{
+    color: #fff;
+    font-size: 2rem;
+    font-weight:700 ;
+    line-height: 2.375rem;
+    margin-right: 0.75rem;
+}
+
+#dos{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.diesq{
+    display: flex ;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda p{
+    color: #fff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button{
+    padding-block: 1rem;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: 0;
+    background: var(--bright-yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
