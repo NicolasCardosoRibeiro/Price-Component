@@ -1,0 +1,46 @@
+@media(min-width:650px){
+    .inferior{
+        display: flex;
+
+    }
+
+    .esquerda,.direita{
+        width:100%;
+        padding: 2.5rem;
+    }
+
+    main{
+        max-width: 40rem;
+        padding: 0;
+
+    }
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .superior div{
+        border-radius: 8px 8px 0px 0px;
+        padding: 2.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    #dirum{
+        font-size: 1rem;
+    }
+
+    .esquerda{
+        border-bottom-left-radius: 8px;
+    }
+
+    .direita{
+        border-radius:0px 0px 8px 0px;
+    }
+
+}
